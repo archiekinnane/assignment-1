@@ -1,5 +1,7 @@
 // script.js
 
+
+
 // Questions array
 const questions = [
   {
@@ -76,4 +78,17 @@ function showScore() {
   nextButton.style.display = "none";
 }
 
+
 loadQuestion();
+
+document.getElementById("answer0").
+addEventListener("click", function( ) {selectAnswer(0)});
+
+document.getElementById("answer1").
+addEventListener("click", function( ) {selectAnswer(1)});
+
+document.getElementById("answer2").
+addEventListener("click", function( ) {selectAnswer(2)});
+
+document.getElementById("answer3").
+addEventListener("click", function( ) {selectAnswer(3)});

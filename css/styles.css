@@ -31,7 +31,7 @@ button {
 }
 
 #next-button {
-    background-color: blue;
+    background-color: rgb(2, 2, 27);
     color: white;
     border: none;
     padding: 20px 20px;
@@ -40,4 +40,13 @@ button {
     width: 100%;
 }
 
+.wrong {
+    background-color: red;
+
+}
+
+.correct {
+    background-color: green;
+
+}
 
