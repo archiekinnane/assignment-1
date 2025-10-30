@@ -50,3 +50,7 @@ button {
 
 }
 
+.selected {
+    border: 5px dashed black;
+}
+

@@ -79,6 +79,7 @@ function showScore() {
 }
 
 
+
 loadQuestion();
 
 document.getElementById("answer0").
@@ -92,3 +93,7 @@ addEventListener("click", function( ) {selectAnswer(2)});
 
 document.getElementById("answer3").
 addEventListener("click", function( ) {selectAnswer(3)});
+
+
+document.getElementById("next-button").
+addEventListener("click", function( ) {nextQuestion( )});
